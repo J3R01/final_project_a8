@@ -3,7 +3,14 @@
 
 format: jb-book
 root: intro
-chapters:
-- file: markdown
-- file: notebooks
-- file: markdown-notebooks
+
+parts:
+- caption: Information
+  chapters:
+  - file: about_me
+  - file: cv
+
+- caption: Example of Analysis
+  chapters:
+  - file: analysis_example
+  - file: citations
