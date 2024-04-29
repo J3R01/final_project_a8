@@ -1,3 +1,4 @@
 *.config
 .DS_Store
 .tmp
+.otter_log
